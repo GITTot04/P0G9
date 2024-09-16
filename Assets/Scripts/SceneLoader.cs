@@ -1,16 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 
 public class SceneLoader : MonoBehaviour
 {
-
-
-    public void swapScene()
+    public void SwapScene(int sceneIndex)
     {
-        
-
+        SceneManager.LoadScene(sceneIndex);
     }
 }
