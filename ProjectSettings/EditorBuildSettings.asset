@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Valdemar.unity
+    guid: f4f69b2ba017e475897e9adf8b48ee96
+  - enabled: 1
+    path: Assets/Scenes/Valdemar(Test).unity
+    guid: 7ecc874843c8e4bcc9eafe25fb3de17b
   m_configObjects: {}

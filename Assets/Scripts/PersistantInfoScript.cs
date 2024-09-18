@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PersistantInfoScript : MonoBehaviour
 {
+    public bool Svar;
     public static PersistantInfoScript info;
     private void Awake()
     {
+
         info = this;
         DontDestroyOnLoad(gameObject);
     }
