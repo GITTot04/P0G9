@@ -10,4 +10,8 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
     }
+    public void SwapScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
