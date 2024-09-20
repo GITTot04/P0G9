@@ -22,4 +22,9 @@ EditorBuildSettings:
     guid: 98bb85c7a7afe4ffb9abd14e705d21a8
     path: Assets/Scenes/NikolajsScene.unity
     guid: 7ddd8c51f5e3741ba8684362ed17b7e9
+    path: Assets/Scenes/ChristiansScene.unity
+    guid: 1183802117d2336479365fb35121692d
+  - enabled: 1
+    path: Assets/Scenes/ChristiansTest.unity
+    guid: a51d8a680229f664c9604f43ea099108
   m_configObjects: {}

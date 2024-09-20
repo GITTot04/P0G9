@@ -6,6 +6,8 @@ public class PersistantInfoScript : MonoBehaviour
 {
     public static PersistantInfoScript info;
     public bool answerinformation;
+
+    public int sliderFinalValue;
     private void Awake()
     {
         info = this;
