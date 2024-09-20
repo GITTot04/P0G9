@@ -5,7 +5,7 @@ using UnityEngine;
 public class PersistantInfoScript : MonoBehaviour
 {
     public static PersistantInfoScript info;
-    
+    public bool answerinformation;
     private void Awake()
     {
         info = this;
