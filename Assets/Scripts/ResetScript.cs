@@ -14,7 +14,7 @@ public class ResetScript : MonoBehaviour
     {
         resetCircle = gameObject.transform.GetChild(0).GetComponentInChildren<Image>();
     }
-    void Update()
+    private void Update()
     {
         if (SceneManager.GetActiveScene().buildIndex != 0)
         {
