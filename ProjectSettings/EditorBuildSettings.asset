@@ -9,22 +9,22 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: 95a342684f85ede4cadde4096d89aaa9
   - enabled: 1
-    path: Assets/Scenes/NikolajsScene.unity
+    path: Assets/Scenes/HomePage.unity
     guid: 7ddd8c51f5e3741ba8684362ed17b7e9
   - enabled: 1
     path: Assets/Scenes/MultipleChoice.unity
     guid: 25df2b3f52a900343b1e45012489c6ba
   - enabled: 1
-    path: Assets/Scenes/Rasmine.unity
+    path: Assets/Scenes/YesNoQuestion.unity
     guid: 1baceba083f1c46f5aee9da839d1fa60
   - enabled: 1
-    path: Assets/Scenes/Rasmine2.unity
+    path: Assets/Scenes/YesNoAnswer.unity
     guid: 98bb85c7a7afe4ffb9abd14e705d21a8
   - enabled: 1
-    path: Assets/Scenes/ChristiansScene.unity
+    path: Assets/Scenes/SliderQuestion.unity
     guid: 1183802117d2336479365fb35121692d
   - enabled: 1
-    path: Assets/Scenes/ChristiansTest.unity
+    path: Assets/Scenes/SliderAnswer.unity
     guid: a51d8a680229f664c9604f43ea099108
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
