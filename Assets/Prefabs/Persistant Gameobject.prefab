@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beefb7c7c1dac6245bbc594cd94ca0eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  answerinformation: 0
   sliderFinalValue: 0
 --- !u!114 &8282650504952596218
 MonoBehaviour:
@@ -91,11 +92,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 625672564698352920}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -20, y: 20}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 20}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 1, y: 0}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &1162116808907031841
 CanvasRenderer:
   m_ObjectHideFlags: 0
