@@ -14,19 +14,19 @@ public class AnswerController : MonoBehaviour
         switch (buttonID)
         {
             case 0:
-                SetAnswerScreen("Du Svarede Kommunikation", "En god del af Medialogi er at kommunikere dig, b�ede internt og externt. Med de f�rdigheder i kommunikation du f�r kan du arbejde som project manager og meget mere :D.");
+                SetAnswerScreen("Du Svarede Kommunikation", "Kommuniaktion er en vigtig del af Medialogi, både internt og externt. Med de færdigheder i kommunikation du får, kan du arbejde som project manager og meget mere.");
                 break;
             case 1:
-                SetAnswerScreen("Du Svarede IT og Technologi", "P� Medialogi arbejder du med meget inde for IT. Du f�r f�rdigheder i kodning og brug af medier som kan give adgang til jobs som software developer, game developer of meget mere :D");
+                SetAnswerScreen("Du Svarede IT og Technologi", "På Medialogi arbejder du meget med IT. Du får færdigheder i kodning og brug af medier, som kan give adgang til jobs som software developer, game developer og meget mere.");
                 break;
             case 2:
-                SetAnswerScreen("Du Svarede Design", "");
+                SetAnswerScreen("Du Svarede Design", "Som Medialogistuderende kommer du til at arbejde med grafisk design. Du vil for eksempel lære at lave brugervenlige interfaces.");
                 break;
             case 3:
-                SetAnswerScreen("Du Svarede Kreativitet", "");
+                SetAnswerScreen("Du Svarede Kreativitet", "Kreativitet er en stor del af medialogi, da man i mange af sine projekter selv skal finde på sine ideer.");
                 break;
             case 4:
-                SetAnswerScreen("Du Svarede Mennesker", "");
+                SetAnswerScreen("Du Svarede Mennesker", "I Medialogi vil du komme til at arbejde med projekter, der kan være meget menneskenære. Du vil lære at lave programmer, som kan hjælpe folk i den virkelige verden.");
                 break;
         }
     }
@@ -39,16 +39,5 @@ public class AnswerController : MonoBehaviour
         TMP_Text[] Text = answerCanvas.GetComponentsInChildren<TMP_Text>();
         Text[0].text = answerScreenTitle;
         Text[1].text = answerScreenBody;
-    }
-    public void nextScene()
-    {
-        SceneManager.LoadScene(2);
-    }
-
-    public void Update()
-    {
-        if (answerCanvas.activeSelf && Input.GetMouseButtonDown(0)) {
-            nextScene();
-        }   
     }
 }
