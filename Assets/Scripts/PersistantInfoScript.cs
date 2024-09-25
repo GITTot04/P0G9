@@ -9,7 +9,12 @@ public class PersistantInfoScript : MonoBehaviour
     public int sliderFinalValue;
     private void Awake()
     {
+        if (PersistantInfoScript.info != null)
+        {
+            Destroy(gameObject);
+        }
         info = this;
         DontDestroyOnLoad(gameObject);
     }
+    
 }
