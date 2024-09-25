@@ -9,15 +9,15 @@ public class SliderAnswerText : MonoBehaviour
     {
         if (PersistantInfoScript.info.sliderFinalValue == 0)
         {
-            gameObject.GetComponent<TextMeshProUGUI>().text = "Det er helt ok! \nDet kræver hverken de store matematiske evner eller mat A, for at komme ind på Medialogi!";
+            gameObject.GetComponent<TextMeshProUGUI>().text = "Det er helt ok! \nDet krÃ¦ver hverken de store matematiske evner eller mat A, for at komme ind pÃ¥ Medialogi!";
         }
         else if (PersistantInfoScript.info.sliderFinalValue == 1)
         {
-            gameObject.GetComponent<TextMeshProUGUI>().text = "Nice! \nDu ville sagtens kunne passe ind på Medialogi, da man ikke behøver mat A!";
+            gameObject.GetComponent<TextMeshProUGUI>().text = "Nice! \nDu ville sagtens kunne passe ind pÃ¥ Medialogi, da man ikke behÃ¸ver mat A!";
         }
         else
         {
-            gameObject.GetComponent<TextMeshProUGUI>().text = "Sådan! \nMedialogi kræver ikke mat A, men du kommer til at kunne bruge dine matematiske evner i kodning eller lignende!";
+            gameObject.GetComponent<TextMeshProUGUI>().text = "SÃ¥dan! \nMedialogi krÃ¦ver ikke mat A, men du kommer til at kunne bruge dine matematiske evner i kodning eller lignende!";
         }
     }
 }
