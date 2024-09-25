@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
+using TMPro;
 using UnityEngine.SceneManagement;
 
 public class AnswerController : MonoBehaviour
 {
     public GameObject mainCanvas;
     public GameObject answerCanvas;
-
     public void AnswerButtonClicked(int buttonID)
     {
         switch (buttonID)
@@ -30,7 +29,6 @@ public class AnswerController : MonoBehaviour
                 break;
         }
     }
-
     public void SetAnswerScreen(string answerScreenTitle, string answerScreenBody)
     {
         

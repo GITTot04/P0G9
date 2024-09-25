@@ -6,10 +6,9 @@ using UnityEngine.SceneManagement;
 public class Knap : MonoBehaviour
 {
     public bool answer;
-     public void SwapScene(int sceneIndex)
+    public void SwapScene(int sceneIndex)
     {
         PersistantInfoScript.info.answerinformation = answer;
         SceneManager.LoadScene(sceneIndex);
     }
-
 }
